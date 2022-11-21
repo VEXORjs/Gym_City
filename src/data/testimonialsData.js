@@ -6,7 +6,7 @@ export const testimonialsData = [
   {
     image: image1,
     review:
-      "Skorzystałem z ofery siłowni lecz nie byłem pewien efektów za które płaciłem, jednak wszystko się udało",
+      "Skorzystałem z ofery siłowni lecz nie byłem pewien efektów za które płaciłem.",
     name: 'Jan Kowalski',
     status : 'Przedsiębiorca'
   },
