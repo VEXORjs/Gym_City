@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 4rem;
+    height: 3rem;
+    margin: .6rem;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+li {
+    background-color: orange;
+    border-radius: 4rem;
+    padding: 0.5rem;
+}
+
+.header-menu>li:hover {
+   /*  animation-name: nav;
+    animation-timing-function: ease; */
+    cursor: pointer;
+    color: rebeccapurple;
+    transform: scale(1.1) skew(.212rad);
+    transition: all .4s ease-in-out .5s;
+    transition-delay: 100ms;
+}
+
+/* @keyframes nav {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: scale(1) skew(.212rad);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
+.the-best-ad>div {
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+}
