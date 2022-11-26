@@ -21,7 +21,7 @@ const Hero = () => {
                         <span>Swoje</span>
                     </div>
                     <div>
-                        <span>Idealne Cialo</span>
+                        <span>Idealne Ciało</span>
                     </div>
                     <div>
                         <span>
