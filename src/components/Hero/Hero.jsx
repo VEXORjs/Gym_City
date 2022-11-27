@@ -17,7 +17,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-text">
                     <div>
-                        <span className='stroke-text'>Kształtuj</span>
+                        <span className='stroke-text'>Kształtuj </span>
                         <span>Swoje</span>
                     </div>
                     <div>
