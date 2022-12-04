@@ -23,23 +23,9 @@ li {
 }
 
 .header-menu>li:hover {
-   /*  animation-name: nav;
-    animation-timing-function: ease; */
     cursor: pointer;
     color: rebeccapurple;
     transform: scale(1.1) skew(.212rad);
     transition: all .4s ease-in-out .5s;
     transition-delay: 100ms;
 }
-
-/* @keyframes nav {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: scale(1) skew(.212rad);
-    }
-    100% {
-        transform: translateY(0);
-    }
-} */

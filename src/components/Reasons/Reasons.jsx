@@ -28,20 +28,29 @@ const Reasons = () => {
           <div className='details-r'>
             <div>
               <img src={tick} alt=""></img>
-              <span></span>
+              <span>Lorem*1</span>
             </div>
             <div>
               <img src={tick} alt="" />
-              <span></span>
+              <span>sdsdsdsd</span>
             </div>
             <div>
               <img src={tick} alt="" />
-              <span></span>
+              <span>dsdsdsd</span>
             </div>
             <div>
               <img src={tick} alt="" />
-              <span></span>
+              <span>sdsdsd</span>
             </div>
+          </div>
+          <span style={{
+            color: 'var(--gray)',
+            fontWeight: 'normal',
+          }}>Nasi partnerzy</span>
+          <div className="partners">
+            <img src={nb} alt="" />
+            <img src={adidas} alt="" />
+            <img src={nike} alt="" />
           </div>
         </div>
       </div>

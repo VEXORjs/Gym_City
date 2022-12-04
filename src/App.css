@@ -6,7 +6,7 @@
   --darkGrey: #464D53;
   --caloryCard: #656565;
   --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
-  --appColor:  #3c3f45;
+  --appColor: #3c3f45;
 }
 
 .App {
@@ -18,7 +18,8 @@
   gap: 6rem;
   overflow: hidden;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -42,4 +43,12 @@
 
 .btn:hover {
   cursor: pointer;
+}
+
+.blur {
+  background: rgba(253, 120, 43, 0.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(200px);
+  z-index: -9;
 }

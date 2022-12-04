@@ -18,7 +18,8 @@
 
 .programs-categories {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
+    justify-content: center;
 }
 
 .category {
