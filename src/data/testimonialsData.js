@@ -6,20 +6,20 @@ export const testimonialsData = [
   {
     image: image1,
     review:
-      "Skorzystałem z ofery siłowni lecz nie byłem pewien efektów za które płaciłem.",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem.",
     name: 'Jan Kowalski',
     status : 'Przedsiębiorca'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
-    name: 'JOHN KEVIN',
-    status: 'COACH'
+    review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem.',
+    name: 'Kyle',
+    status: 'CSS/HTML/JS Master'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
-    name: 'FRANKLIN',
-    status: "CUSTOMER"
+    review:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem.',
+    name: 'Kevin Powell',
+    status: "CSS Master"
   }
 ];

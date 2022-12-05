@@ -17,7 +17,7 @@ const Header = () => {
       ): } */}
           <ul className='header-menu'>
             <li>Główna</li>
-            <li>Sekcje</li>
+            <li>Sekcje treningowe</li>
             <li>Dlaczego my?</li>
             <li>Plany treningowe</li>
             <li>Kontakt</li>

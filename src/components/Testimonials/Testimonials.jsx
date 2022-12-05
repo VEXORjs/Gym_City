@@ -15,7 +15,7 @@ const Testimonials = () => {
         <div className="Testimonials">
             <div className='left-t'>
                 <span className='stroke-text'>
-                    Oceny
+                    Oceny Naszych
                 </span>
                 <span>
                     klientów
