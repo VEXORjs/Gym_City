@@ -1,29 +1,47 @@
 import React from 'react';
-import './Header.css';
+import { useEffect, useState } from 'react';
 import Logo from '../../assets/logo.png';
-import Bars from '../../assets/bars.png';
-import { useState } from 'react';
+import './Header.css';
 
 const Header = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
+    window.location.reload(true);
+  }
 
-  const mobile = window.innerWidth <= 768 ? true : false;
-  const [menuOpened, setMenuOpened] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 200) {
+      setScrolled(true);
+    }
+    else {
+      setScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  })
+
+  let navbarClasses = ['navbar'];
+  if (scrolled) {
+    navbarClasses.push('scrolled');
+  }
 
   return (
     <div className="header">
-      <img className='logo' src={Logo} alt="" />
-    {/*   {(menuOpened === false && mobile === true) ? (
-        <div><img src={Bars} alt="" ></img>
-      ): } */}
-          <ul className='header-menu'>
-            <li>Główna</li>
-            <li>Sekcje treningowe</li>
-            <li>Dlaczego my?</li>
-            <li>Plany treningowe</li>
-            <li>Kontakt</li>
-          </ul>
-        </div>
-      )
+      <img onClick={handleClick} className='logo' src={Logo} alt="" />
+      <ul className='header-menu'>
+        <li href="#">Główna</li>
+        <li>Sekcje treningowe</li>
+        <li>Dlaczego my?</li>
+        <li>Plany treningowe</li>
+        <li>Kontakt</li>
+      </ul>
+    </div>
+  )
 }
 
-      export default Header
+export default Header

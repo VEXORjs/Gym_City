@@ -28,19 +28,19 @@ const Reasons = () => {
           <div className='details-r'>
             <div>
               <img src={tick} alt=""></img>
-              <span>Lorem*1</span>
+              <span>Od wielu lat na rynku</span>
             </div>
             <div>
               <img src={tick} alt="" />
-              <span>sdsdsdsd</span>
+              <span>Wiele zadowolonych klientow</span>
             </div>
             <div>
               <img src={tick} alt="" />
-              <span>dsdsdsd</span>
+              <span>Marka budowana latami</span>
             </div>
             <div>
               <img src={tick} alt="" />
-              <span>sdsdsd</span>
+              <span>Uczymy sie od najlepszych w branzy</span>
             </div>
           </div>
           <span style={{

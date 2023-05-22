@@ -9,23 +9,43 @@
     width: 4rem;
     height: 3rem;
     margin: .6rem;
+    cursor: pointer;
 }
 
 .header-menu {
     list-style: none;
     display: flex;
-    gap: 2rem;
-    color: white;
+    gap: 3rem;
+    color: #000;
+    margin-right: 10rem;
+    margin-top: -0.5rem;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 6vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    transition: all .7s ease-in;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
 }
 
 li {
     list-style: none;
     appearance: none;
     background-color: var(--orange);
-    border: 2px solid #1A1A1A;
-    border-radius: 15px;
+    border-radius: 4rem;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #000;
     cursor: pointer;
     display: inline-block;
     font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -54,9 +74,10 @@ li:hover {
     transform: translateY(-2px);
     cursor: pointer;
     color: black;
-    transform: scale(1.1) skew(.212rad);
+    transform: scale(1.1);
     transition: all .4s ease-in-out .5s;
     transition-delay: 100ms;
+    color: #fff;
 }
 
 li:active {

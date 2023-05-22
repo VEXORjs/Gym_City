@@ -47,7 +47,7 @@
 }
 
 ::placeholder {
-    color: var(--lightgray);
+    color: var(--white);
 }
 
 .btn-j {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
+import Canvas from '../Canvas/Canvas';
 import './Hero.css';
-import Heart from '../../assets/heart.png';
 import hero_image from '../../assets/hero_image.png';
 import hero_image_back from '../../assets/hero_image_back.png';
 import Calories from '../../assets/calories.png';
@@ -66,7 +66,9 @@ const Hero = () => {
                 </div>
             </div>
             <div className='right-h'>
-               {/*  <motion.div
+                <Canvas />
+                {/* <img className="hantle" src="https://be-active.pl/pol_pl_Hantle-2x15-kg-gryfy-obciazenia-zestaw-hantli-80_5.png" alt="" /> */}
+                {/*  <motion.div
                     initial={{ right: '-1rem' }}
                     whileInView={{ right: '4rem' }}
                     transition={transition}
@@ -75,6 +77,11 @@ const Hero = () => {
                     <span>Uderzenia serca na minute</span>
                     <span>112</span>
                 </motion.div> */}
+                <motion.img
+                    initial={{ right: '5rem' }}
+                    whileInView={{ right: '10rem' }}
+                    transition={transition}
+                    src="https://be-active.pl/pol_pl_Hantle-2x15-kg-gryfy-obciazenia-zestaw-hantli-80_5.png" alt="" className='hero-image' />
                 <motion.img
                     initial={{ right: '11rem' }}
                     whileInView={{ right: '50rem' }}

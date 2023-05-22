@@ -31,6 +31,7 @@
 
 .plan:nth-child(2):hover {
     transform: scale(1.2);
+    transition: all ease-in-out;
 }
 
 .plan>svg {

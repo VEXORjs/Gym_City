@@ -38,7 +38,7 @@ const Join = () => {
                     onSubmit={sendEmail}>
                     <input type="email"
                         name='user_email'
-                        placeholder='Podaj twoj adres e-mail' />
+                        placeholder='Podaj swój adres e-mail' />
                     <button className='btn btn-j'>Dolacz teraz</button>
                 </form>
             </div>
