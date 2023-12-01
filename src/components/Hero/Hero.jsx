@@ -79,7 +79,7 @@ const Hero = () => {
                 </motion.div> */}
                 <motion.img
                     initial={{ right: '5rem' }}
-                    whileInView={{ right: '10rem' }}
+                    whileInView={{ right: '100rem' }}
                     transition={transition}
                     src="https://be-active.pl/pol_pl_Hantle-2x15-kg-gryfy-obciazenia-zestaw-hantli-80_5.png" alt="" className='hero-image' />
                 <motion.img
